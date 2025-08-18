@@ -19,7 +19,7 @@
         "gomodTidyE"
       ],
       "ignorePaths": [
-        "**/mocks/**"
+        "github.com/instana/instana-agent-operator/mocks"
       ]
     }
   ]
