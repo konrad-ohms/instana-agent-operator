@@ -7,7 +7,11 @@
   "reviewers": [
     "team:eng-agent"
   ],
-  "prConcurrentLimit": 2,
+  "prConcurrentLimit": 1,
   "rebaseWhen": "behind-base-branch",
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "golang": {
+    "postUpdateOptions": ["goModTidy"],
+    "ignorePaths": ["**/mocks/**"]
+  }
 }
