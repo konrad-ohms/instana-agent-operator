@@ -10,8 +10,17 @@
   "prConcurrentLimit": 1,
   "rebaseWhen": "behind-base-branch",
   "dependencyDashboard": true,
-  "golang": {
-    "postUpdateOptions": ["goModTidy"],
-    "ignorePaths": ["**/mocks/**"]
-  }
+  "packageRules": [
+    {
+      "matchCategories": [
+        "golang"
+      ],
+      "postUpdateOptions": [
+        "goModTidy"
+      ],
+      "ignorePaths": [
+        "**/mocks/**"
+      ]
+    }
+  ]
 }
