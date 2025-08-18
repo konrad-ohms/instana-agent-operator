@@ -16,7 +16,7 @@
         "golang"
       ],
       "postUpdateOptions": [
-        "goModTidy"
+        "gomodTidyE"
       ],
       "ignorePaths": [
         "**/mocks/**"
