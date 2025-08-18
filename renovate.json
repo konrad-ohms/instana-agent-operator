@@ -9,18 +9,5 @@
   ],
   "prConcurrentLimit": 1,
   "rebaseWhen": "behind-base-branch",
-  "dependencyDashboard": true,
-  "packageRules": [
-    {
-      "matchCategories": [
-        "golang"
-      ],
-      "postUpdateOptions": [
-        "gomodTidyE"
-      ],
-      "ignorePaths": [
-        "github.com/instana/instana-agent-operator/mocks"
-      ]
-    }
-  ]
+  "dependencyDashboard": true
 }
